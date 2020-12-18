@@ -17,7 +17,6 @@ const emojiObject = {
   "🛃": "Customs",
   "🛄": "Baggage Claim",
   "🛅": "Left Luggage",
-  "🏧": "ATM Sign",
   "🚮": "Litter in Bin Sign",
   "🚰": "Potable Water",
   "♿": "Wheelchair Symbol",
