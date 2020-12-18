@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #b5c5c5;
+  color: teal;
+  font-family: "Lato", cursive;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10vh;
+  min-height: 40vh;
+}
+
+.input {
+  font-family: "Lato", cursive;
+  max-width: 80%;
+  border: 1px solid;
+  background: #c9cfcf;
+  text-align: center;
+  padding: 0.5rem;
+  width: 250px;
+  border: 2px solid teal;
+  border-radius: 10px;
+}
+
+.output {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.listingArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+  flex-wrap: wrap;
+}
+
+.emoji {
+  font-size: 1.3rem;
+  background: #c9cfcf;
+  padding: 0.1rem 0.2rem;
+  font-size: 1.8rem;
+  margin: 0.5rem 0.4rem;
+  cursor: pointer;
+  box-shadow: 0 0 8px #122528;
+  border-radius: 15%;
+  transition: transform 0.1s;
+}
+
+.emoji:hover {
+  transform: scale(1.2);
+}
